@@ -1,0 +1,19 @@
+Coverage Report Summary Data by file
+
+File: C:/Users/HP-USER/Desktop/Ver_Iti/alu/rtl/alu.v
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       22        19         3      86.3
+    Branches                    30        27         3      90.0
+    FEC Condition Terms         22        14         8      63.6
+    FEC Expression Terms         0         0         0     100.0
+    States                       0         0         0     100.0
+    Transitions                  0         0         0     100.0
+
+
+TOTAL COVERGROUP COVERAGE: 97.9%  COVERGROUP TYPES: 4
+
+
+NEVER FAILED: 100.0%  ASSERTIONS: 23
+
+

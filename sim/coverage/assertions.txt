@@ -1,0 +1,54 @@
+
+ASSERTION RESULTS:
+-------------------------------------------------------
+Name                 File(Line)           Failure Pass 
+                                          Count   Count 
+-------------------------------------------------------
+/top/vif/and_a_irq_ass1
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(55)       0    26
+/top/vif/nand_a_irq_ass2
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(56)       0    48
+/top/vif/or_a_irq_ass3
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(57)       0    10
+/top/vif/xor_a_irq_ass4
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(58)       0    20
+/top/vif/xnor_b_irq_ass5
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(60)       0    11
+/top/vif/and_b_irq_ass6
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(61)       0     9
+/top/vif/nor_b_irq_ass7
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(62)       0    12
+/top/vif/or_b_irq_ass8
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(63)       0    39
+/top/vif/irq_clr_out_ass9
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(65)       0   118
+/top/tb/#ublk#0#149/#ublk#0#150/immed__150
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/test.sv(150)       0   950
+/top/tb/#ublk#0#149/#ublk#0#154/immed__154
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/test.sv(154)       0    49
+/top/tb/#ublk#0#149/#ublk#0#167/immed__167
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/test.sv(167)       0   949
+/top/tb/#ublk#0#149/#ublk#0#171/immed__171
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/test.sv(171)       0    49
+/top/tb/#ublk#0#149/#ublk#0#183/immed__183
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/test.sv(183)       0    23
+/top/tb/tb_if/and_a_irq_ass1
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(55)       0    26
+/top/tb/tb_if/nand_a_irq_ass2
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(56)       0    48
+/top/tb/tb_if/or_a_irq_ass3
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(57)       0    10
+/top/tb/tb_if/xor_a_irq_ass4
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(58)       0    20
+/top/tb/tb_if/xnor_b_irq_ass5
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(60)       0    11
+/top/tb/tb_if/and_b_irq_ass6
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(61)       0     9
+/top/tb/tb_if/nor_b_irq_ass7
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(62)       0    12
+/top/tb/tb_if/or_b_irq_ass8
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(63)       0    39
+/top/tb/tb_if/irq_clr_out_ass9
+                     C:/Users/HP-USER/Desktop/Ver_Iti/alu/tb/alu_if.sv(65)       0   118
+
+

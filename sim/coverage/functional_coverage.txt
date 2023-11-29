@@ -1,0 +1,91 @@
+COVERGROUP COVERAGE:
+------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric      Goal/ Status                      
+                                                                At Least                             
+------------------------------------------------------------------------------------------------------
+ TYPE /top/tb/cov_op_a                                 100.0%        100 Covered                   
+      Coverpoint cov_op_a::op_a                          100.0%        100 Covered                   
+   Covergroup instance \/top/tb/cov_op_a_h               100.0%        100 Covered                   
+      Coverpoint op_a                                    100.0%        100 Covered                   
+          covered/total bins:                                 4          4                           
+          missing/total bins:                                 0          4                           
+          bin AND_a                                         224          1 Covered                   
+          bin NAND_a                                        187          1 Covered                   
+          bin OR_a                                          205          1 Covered                   
+          bin XOR_a                                         221          1 Covered                   
+   TYPE /top/tb/cov_op_b                                 100.0%        100 Covered                   
+      Coverpoint cov_op_b::op_b                          100.0%        100 Covered                   
+   Covergroup instance \/top/tb/cov_op_b_h               100.0%        100 Covered                   
+      Coverpoint op_b                                    100.0%        100 Covered                   
+          covered/total bins:                                 4          4                           
+          missing/total bins:                                 0          4                           
+          bin XNOR_b                                        218          1 Covered                   
+          bin AND_b                                         209          1 Covered                   
+          bin NOR_b                                         197          1 Covered                   
+          bin OR_b                                          205          1 Covered                   
+   TYPE /top/tb/cov_in                                   100.0%        100 Covered                   
+      Coverpoint cov_in::in_a_op_a                       100.0%        100 Covered                   
+      Coverpoint cov_in::in_b_op_a                       100.0%        100 Covered                   
+      Coverpoint cov_in::in_a_op_b                       100.0%        100 Covered                   
+      Coverpoint cov_in::in_b_op_b                       100.0%        100 Covered                   
+   Covergroup instance \/top/tb/cov_in_h                 100.0%        100 Covered                   
+      Coverpoint in_a_op_a                               100.0%        100 Covered                   
+          covered/total bins:                                 1          1                           
+          missing/total bins:                                 0          1                           
+          illegal_bin nand_in_a_ff                            0            ZERO                      
+          bin in_a_op_a                                     198          1 Covered                   
+      Coverpoint in_b_op_a                               100.0%        100 Covered                   
+          covered/total bins:                                 1          1                           
+          missing/total bins:                                 0          1                           
+          illegal_bin and_in_b_00                             0            ZERO                      
+          illegal_bin nand_in_b_03                            0            ZERO                      
+          bin in_b_op_a                                     198          1 Covered                   
+      Coverpoint in_a_op_b                               100.0%        100 Covered                   
+          covered/total bins:                                 1          1                           
+          missing/total bins:                                 0          1                           
+          illegal_bin nor_in_a                                0            ZERO                      
+          bin in_a_op_b                                     208          1 Covered                   
+      Coverpoint in_b_op_b                               100.0%        100 Covered                   
+          covered/total bins:                                 1          1                           
+          missing/total bins:                                 0          1                           
+          illegal_bin and_in_b                                0            ZERO                      
+          bin in_b_op_b                                     222          1 Covered                   
+   TYPE /top/tb/cov_out                                   91.6%        100 Uncovered                 
+      Coverpoint cov_out::out_a                          100.0%        100 Covered                   
+      Coverpoint cov_out::out_b                           83.3%        100 Uncovered                 
+   Covergroup instance \/top/tb/cov_out_h                 91.6%        100 Uncovered                 
+      Coverpoint out_a                                   100.0%        100 Covered                   
+          covered/total bins:                                12         12                           
+          missing/total bins:                                 0         12                           
+          bin out_00_and_a                                   31          1 Covered                   
+          bin out_ff_and_a                                   19          1 Covered                   
+          bin out_00_nand_a                                  11          1 Covered                   
+          bin out_ff_nand_a                                  23          1 Covered                   
+          bin out_00_or_a                                    12          1 Covered                   
+          bin out_ff_or_a                                    23          1 Covered                   
+          bin out_00_xor_a                                    9          1 Covered                   
+          bin out_ff_xor_a                                    3          1 Covered                   
+          bin out_and_a_ir                                   19          1 Covered                   
+          bin out_nand_a_ir                                  11          1 Covered                   
+          bin out_or_a_ir                                     9          1 Covered                   
+          bin out_xor_a_ir                                   20          1 Covered                   
+          default bin other_a                              1760            Occurred                  
+      Coverpoint out_b                                    83.3%        100 Uncovered                 
+          covered/total bins:                                10         12                           
+          missing/total bins:                                 2         12                           
+          bin out_00_and_b                                   11          1 Covered                   
+          bin out_ff_and_b                                    1          1 Covered                   
+          bin out_00_nand_b                                  33          1 Covered                   
+          bin out_ff_nand_b                                   0          1 ZERO                      
+          bin out_00_or_b                                    37          1 Covered                   
+          bin out_ff_or_b                                     0          1 ZERO                      
+          bin out_00_xor_b                                   12          1 Covered                   
+          bin out_ff_xor_b                                   35          1 Covered                   
+          bin out_xnor_b_ir                                  11          1 Covered                   
+          bin out_and_b_ir                                    8          1 Covered                   
+          bin out_nor_b_ir                                   11          1 Covered                   
+          bin out_or_b_ir                                    35          1 Covered                   
+          default bin other_b                              1761            Occurred                  
+  
+TOTAL COVERGROUP COVERAGE: 97.9%  COVERGROUP TYPES: 4
+
