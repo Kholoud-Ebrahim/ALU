@@ -1,2 +1,2 @@
 # ALU
-Verification of ALU using System Verilog, The 1st project for ITI Digital verification 3 Months Training
+![image](https://github.com/UserImages/user_images/blob/main/alu.jpg)
